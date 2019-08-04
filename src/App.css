@@ -12,7 +12,7 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -41,6 +41,7 @@
   padding: 10px;
   border: 1px solid #cccccc;
   box-shadow: 3px 3px grey;
+  max-width: 400px;
   
 }
 
@@ -52,7 +53,7 @@
   padding: 10px;
   border: 1px solid black;
   box-shadow: 3px 3px grey;
-
+  max-width: 400px;
 }
 .klasa:hover {
 background-color: aquamarine;
@@ -64,4 +65,31 @@ box-shadow: 0px 0px;
   background-color: chartreuse;
   color: darkred;
   box-shadow: 0px 0px;
+}
+
+.navibar {
+
+background-color: #282c34;
+color: white;
+padding: 5px;
+
+}
+
+nav {
+width: 90%;
+float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+
+
+}
+
+.ludzie {
+display: inherit;
+
 }

@@ -2,6 +2,7 @@ import React from 'react';
 //import React, { Component } from 'react'
 import './App.css';
 import Person from './components/components';
+import NaviBar from './components/navbar';
 //import { arrayExpression } from '@babel/types';
 
 
@@ -32,7 +33,9 @@ key={ludz.id}
 
   return (
     <div className="App">
-      {ludzie}
+      <NaviBar />
+
+      <div className="ludzie">{ludzie}</div>
       
       </div>
   );
