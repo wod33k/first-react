@@ -86,10 +86,22 @@ float: left;
   font-size: 17px;
 
 
-
 }
 
 .ludzie {
 display: inherit;
+
+}
+
+.navi {
+padding : 10px;
+color:whitesmoke;
+
+}
+
+.navi:hover {
+background-color: whitesmoke;
+color: grey;
+
 
 }
