@@ -12,6 +12,12 @@ import MainPost from './components/mainPost';
 
   //state = {
     
+//const jakistekst = 'WordPress REST API makes it easier to connect to apps. A custom looking mobile or single-page app can now more easily than ever not only read WordPress data, but also create, edit and delete that data\.
+//  Many have started to use WordPress in \"weird places\", as in applications where it would have been a pain to work with a few years ago.
+ // As for us? We chose React for this demo because, well, we\'ve been talking too much about Vue recently. Jokes aside, we do want to keep our content diversified, and React still is one of the best frameworks out there: flexible & reusable component system, Facebook-backed open source project, efficient workflow with JSX, etc.
+  //Also, using WP REST API with a React frontend you can put together a full JAMstack, the which I\'m always more than willing.';
+//;
+
 
 function App() {
 
