@@ -13,9 +13,9 @@ padding:  10px;
 
 const MainPostText = styled.p `
 flex: 2;
-font-size: 12pt;
-font-family: Arial;
+font-size: 14pt;
 color: black;
+justify-content: center;
 `;
 
 const MainPostImg = styled.img `
@@ -33,10 +33,7 @@ const MainPost  = props => {
     return (
             <MainPostStyled>
                 <MainPostImg src={zdj} />
-                    
                 <MainPostText>   {props.mainPostText}</MainPostText>
-               
-                
                 </MainPostStyled>
 
     )
