@@ -1,6 +1,7 @@
 .App {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 20%, 150px ,auto;
+  justify-items:center;
   text-align: center;
 }
 
@@ -82,8 +83,22 @@ float: left;
 }
 
 .ludzie {
-display: flex;
-flex-flow: row;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-width: 550px;
+  
+grid-row-start: 3;
 padding: 10px;
 justify-content: center;
+align-self: center;
+}
+
+.ludzie_obok {
+background-color: bisque;
+width: 300px;
+color: #000;
+border: #282c34 1px solid;
+
+
 }
